@@ -1,5 +1,5 @@
 import { gradientBlueTextStyles } from "../Text/GradientText";
-//import dayjs from "dayjs";
+
 
 const TableComponent = ({ data }: { data: Record<string, any> }) => {
   const keys = Object.keys(data);
