@@ -6,7 +6,7 @@ import { CardSkeletonPage } from "../../components/Skeleton";
 
 const PeopleDetails = () => {
   const params = useParams<{ id: string }>();
-  const { data, isLoading, isFetching, isError, status } =
+  const { data, isLoading, isFetching } =
     useGetOnePersonDataQuery({
       id: params.id as string,
     });

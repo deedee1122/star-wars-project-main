@@ -6,7 +6,7 @@ import { useGetOneStarShipDataQuery } from "../../store/store";
 
 const StarShipDetails = () => {
   const params = useParams<{ id: string }>();
-  const { data, isLoading, isFetching, isError, status } =
+  const { data, isLoading, isFetching } =
     useGetOneStarShipDataQuery({
       id: params.id as string,
     });

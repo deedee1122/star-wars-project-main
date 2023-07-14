@@ -4,11 +4,11 @@ import {
   HomeIcon,
   XMarkIcon as CrossIcon,
   Bars3Icon as MenuIcon,
-  CpuChipIcon,
-  PuzzlePieceIcon,
+  //CpuChipIcon,
+  //PuzzlePieceIcon,
   CubeTransparentIcon,
   RocketLaunchIcon,
-  FilmIcon,
+  //FilmIcon,
   UserCircleIcon,
 } from "@heroicons/react/24/outline";
 import ThemeSwitch from "../Switch/ThemeSwitch";

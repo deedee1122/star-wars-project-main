@@ -12,7 +12,7 @@ const Species = () => {
     totalPages: 1,
   });
 
-  const { data, isLoading, isError, isFetching, status } =
+  const { data, isLoading, isFetching, } =
     useGetAllSpeciesDataQuery({
       page: pageData.currentPage,
     });

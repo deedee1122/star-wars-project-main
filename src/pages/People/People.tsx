@@ -13,7 +13,7 @@ const People = () => {
     totalPages: 1,
   });
 
-  const { data, isLoading, isError, isFetching, status } =
+  const { data, isLoading, isFetching, } =
     useGetAllPeopleDataQuery({
       page: pageData.currentPage,
     });

@@ -12,7 +12,7 @@ const StarShip = () => {
     totalPages: 1,
   });
 
-  const { data, isLoading, isError, isFetching, status } =
+  const { data, isLoading, isFetching } =
     useGetAllStarShipDataQuery({
       page: pageData.currentPage,
     });

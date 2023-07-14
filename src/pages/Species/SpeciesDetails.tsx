@@ -6,7 +6,7 @@ import { useGetOneSpeciesDataQuery } from "../../store/store";
 
 const SpeciesDetails = () => {
   const params = useParams<{ id: string }>();
-  const { data, isLoading, isFetching, isError, status } =
+  const { data, isLoading, isFetching } =
     useGetOneSpeciesDataQuery({
       id: params.id as string,
     });
